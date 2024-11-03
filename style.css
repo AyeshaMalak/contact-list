@@ -1,0 +1,69 @@
+body {
+    background-color: #1a1a2e; /* Dark background */
+    color: #ffffff; /* White text */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+#container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #162447; /* Slightly lighter blue */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    text-align: center;
+    color:#ffffff /* Accent color */
+}
+
+#image {
+    display: block;
+    margin: 0 auto 20px;
+    width: 100%; /* Responsive image */
+    max-width: 300px; /* Max width for image */
+    border-radius: 10px;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0f3460; /* Input background */
+    color: #ffffff;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff; /* Button color */
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #fff; /* Button hover color */
+}
+
+#contactlist {
+    margin-top: 20px;
+}
+
+.contacts {
+    background-color: #0f3460; /* Card background */
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.contacts p {
+    margin: 5px 0;
+}
